@@ -1,4 +1,4 @@
-public class ContaPoupanca extends Conta {
+public class AccountPoupanca extends Account {
     @Override
     public void imprimirExtrato() {
         System.out.println(" === Extrato Conta Poupança ===");

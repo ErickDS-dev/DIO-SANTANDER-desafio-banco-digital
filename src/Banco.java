@@ -1,11 +1,6 @@
+import lombok.Getter;
 public class Banco {
-    private String nome;
+    @Getter
+    private final String nome = "Santander";
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 }
